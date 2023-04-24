@@ -80,10 +80,10 @@ const Card2: React.FC = (props) => {
                   <img className="h-auto max-w-full rounded-lg" src='./IMG-6937.jpg' alt=""/>
               </div>
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='./IMG-9378.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-4597.jpg' alt=""/>
               </div>
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='./IMG-4597.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-9378.jpg' alt=""/>
               </div>
               <div>
                   <img className="h-auto max-w-full rounded-lg" src='./IMG-8228.jpg' alt=""/>
