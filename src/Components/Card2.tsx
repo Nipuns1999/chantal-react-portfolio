@@ -11,13 +11,25 @@ const Card2: React.FC = (props) => {
 
   const slides = [
     {
-      url: './IMG-4328.jpg',
+      url: './IMG-4597.jpg',
     },
     {
-      url: './IMG-8469.jpg',
+      url: './IMG-0175.jpg',
     },
     {
       url: './IMG-8148.jpg',
+    },
+    {
+      url: './IMG-6937.jpg',
+    },
+    {
+      url: './IMG-8228.jpg',
+    },
+    {
+      url: './IMG-6453.jpg',
+    },
+    {
+      url: './IMG-2891.jpg',
     },
   ];
 
@@ -40,9 +52,9 @@ const Card2: React.FC = (props) => {
   const largeScreen = (
     <div>
       <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-2xl font-bold mt-20 mb-10 text-center">Pencil Sketches</h2>
-      <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+      <div className='max-w-[700px] h-[960px] w-full m-auto py-16 px-4 relative group'>
         <div
-          style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+          style={{ backgroundImage: `url(${slides[currentIndex].url})`, backgroundSize: '100%' }}
           className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
         ></div>
         {/* Left Arrow */}
@@ -73,7 +85,7 @@ const Card2: React.FC = (props) => {
       <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-2xl font-bold mt-20 mb-10 text-center">Pencil Sketches</h2>
       <div className="grid gap-4">
           <div>
-              <img className="h-auto max-w-full rounded-lg" src="./IMG-4328.jpg" alt=""/>
+              <img className="h-auto max-w-full rounded-lg" src="./IMG-8469.jpg" alt=""/>
           </div>
           <div className="grid grid-cols-5 gap-4">
               <div>
