@@ -11,13 +11,13 @@ const Card2: React.FC = (props) => {
 
   const slides = [
     {
-      url: '../../IMG-4328.jpg',
+      url: './IMG-4328.jpg',
     },
     {
-      url: '../../IMG-8469.jpg',
+      url: './IMG-8469.jpg',
     },
     {
-      url: '../../IMG-8148.jpg',
+      url: './IMG-8148.jpg',
     },
   ];
 
@@ -73,23 +73,23 @@ const Card2: React.FC = (props) => {
       <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-2xl font-bold mt-20 mb-10 text-center">Pencil Sketches</h2>
       <div className="grid gap-4">
           <div>
-              <img className="h-auto max-w-full rounded-lg" src="../../IMG-4328.jpg" alt=""/>
+              <img className="h-auto max-w-full rounded-lg" src="./IMG-4328.jpg" alt=""/>
           </div>
           <div className="grid grid-cols-5 gap-4">
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='../../IMG-6937.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-6937.jpg' alt=""/>
               </div>
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='../../IMG-9378.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-9378.jpg' alt=""/>
               </div>
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='../../IMG-4597.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-4597.jpg' alt=""/>
               </div>
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='../../IMG-8228.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-8228.jpg' alt=""/>
               </div>
               <div>
-                  <img className="h-auto max-w-full rounded-lg" src='../../IMG-8148.jpg' alt=""/>
+                  <img className="h-auto max-w-full rounded-lg" src='./IMG-8148.jpg' alt=""/>
               </div>
           </div>
       </div>
