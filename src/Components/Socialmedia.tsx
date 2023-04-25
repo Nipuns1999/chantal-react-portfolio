@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SocialMediaLinks:React.FC = () => {
   return (
     <div>
-      <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-2xl font-bold mt-10 mb-10 text-center">It's Time for a Portrait, Contact me for more information</h2>
+      <h2 className="font-mono text-2xl font-bold mt-10 mb-10 text-center">It's Time for a Portrait, Contact me for more information</h2>
       <div className="flex justify-evenly container mx-auto">
       <a href="https://www.instagram.com/paintingsbychantal/?hl=en"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
       <a href="mailto:chantaldassanayake@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="2x"/></a>
