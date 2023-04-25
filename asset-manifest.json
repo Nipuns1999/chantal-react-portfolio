@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/chantal-react-portfolio/static/css/main.85d294d5.css",
-    "main.js": "/chantal-react-portfolio/static/js/main.47e8e386.js",
-    "index.html": "/chantal-react-portfolio/index.html",
-    "main.85d294d5.css.map": "/chantal-react-portfolio/static/css/main.85d294d5.css.map",
-    "main.47e8e386.js.map": "/chantal-react-portfolio/static/js/main.47e8e386.js.map"
+    "main.css": "/static/css/main.85d294d5.css",
+    "main.js": "/static/js/main.47e8e386.js",
+    "index.html": "/index.html",
+    "main.85d294d5.css.map": "/static/css/main.85d294d5.css.map",
+    "main.47e8e386.js.map": "/static/js/main.47e8e386.js.map"
   },
   "entrypoints": [
     "static/css/main.85d294d5.css",
