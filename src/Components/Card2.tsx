@@ -50,8 +50,8 @@ const Card2: React.FC = (props) => {
   };
 
   const largeScreen = (
-    <div>
-      <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-2xl font-bold mt-20 mb-10 text-center">Pencil Sketches</h2>
+    <div className="mt-10">
+      <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-3xl font-bold text-center">Pencil Sketches</h2>
       <div className='max-w-[700px] h-[960px] w-full m-auto py-16 px-4 relative group'>
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})`, backgroundSize: '100%' }}
@@ -81,8 +81,8 @@ const Card2: React.FC = (props) => {
   )
   
   const smallScreen = (
-    <div>
-      <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-2xl font-bold mt-20 mb-10 text-center">Pencil Sketches</h2>
+    <div className="mt-10 ml-2 mr-2">
+      <h2 className="hover:transform hover:scale-110 transition duration-500 ease-in-out font-mono text-3xl font-bold mb-10 text-center">Pencil Sketches</h2>
       <div className="grid gap-4">
           <div>
               <img className="h-auto max-w-full rounded-lg" src="./IMG-8469.jpg" alt=""/>
