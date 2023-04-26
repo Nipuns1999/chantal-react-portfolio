@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Client website Project for https://paintingsbychantal.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The website is made to be a portfolio for the client to show her work and The website is made with react and tailwind css.
+
+# Linting 
+
+.pre-commit-config.yaml is used to lint the code before commiting to the repo.
+Makefile is added to create a virtual python environment and install the pre-commit hooks.
 
 ## Available Scripts
 
@@ -29,6 +34,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm install'
+
+Installs all the dependencies for the project.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -39,8 +48,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
